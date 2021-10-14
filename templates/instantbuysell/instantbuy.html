@@ -1,0 +1,92 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="{% static 'css/instantbuy.css' %}">
+<body>
+    
+    <nav class="navbar">
+        <img src="{% static 'Images/logo.png' %}" alt="">
+        <button class="buy">
+            Instant Buy/Sell
+        </button>
+
+        <p class="learn">
+            Learn
+        </p>
+
+        <button class="login"> Log In </button>
+
+        <button class="started"> Get Started </button>
+    </nav>
+
+    <form class="form">
+
+        <h2 class="welcome"> Buy/Sell Instantly </h2>
+
+        <div class="formdiv1">
+
+            <div class="form2">
+                <h3 class="ind"> Buy </h3>
+
+            </div>
+
+            <div class="form3">
+
+                <h3 class="ind"> Sell </h3>
+            </div>
+        </div>
+
+        <div class="coin1">
+             
+            <label class="coin"> Coin to Buy </label>
+        
+            <select class="crptcurrencies">
+                <option value="btc"> Bitcoin (BTC)</option>
+                <option value="usdt"> Tether (USDT)</option>
+                <option value="eth"> Ethereum (ETH)</option>
+                <option value="ltc"> Litecoin (LTC)</option>
+                <option value="xrp"> Ripple (XRP)</option>
+            </select>
+
+        </div>
+        
+
+        <div class="coin1">
+
+            <label class="coin"> Currency </label>
+        
+            <select class="crptcurrencies">
+                <option value="naira"> Naira (NGN)</option>
+                <option value="dollar"> Dollar (USD)</option>
+                <option value="eur"> Euros (EUR)</option>
+                
+            </select>
+
+        </div>
+
+        <div class="coin1">
+
+            <label class="coin"> Amount </label>
+
+            <input class="crptcurrencies1" type="text" id="amount" >
+    
+
+        </div>
+
+        
+        
+
+        <button class="signbutton"> Continue </button>
+
+        
+    </form>
+
+</body>
+</html>

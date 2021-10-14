@@ -1,0 +1,421 @@
+body{
+    margin: 0%;
+}
+
+.mainheader{
+    background-color: blueviolet;
+    padding-bottom: 5%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.buy{
+    position: relative;
+    left: 25vw;
+    
+    
+}
+
+.hover{
+    text-decoration: none;
+    color: white;
+}
+
+.learn{
+    position: relative;
+    left: 19vw;
+}
+
+.login{
+    position: relative;
+    left: 9vw;
+    width: 190px;
+    height: 48px;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.started{
+    position: relative;
+    /* left: 5vw; */
+    width: 180px;
+    height: 48px;
+    border-radius: 5px;
+    color: blueviolet;
+    background-color: white;
+    border-style: none;
+}
+
+/* NAVBAR STYLING ENDS  */
+
+.header{
+    margin-top: 10%;
+    padding-left: 5%;
+    color: white;
+}
+
+.header1{
+    font-size: 50px;
+}
+
+.button1{
+    margin-top: 1%;
+    width: 265px;
+    height: 48px;
+    border-radius: 5px;
+    color: blueviolet;
+    background-color: white;
+    border-style: none;
+}
+
+.header_div{
+    display: flex;
+    margin-top: 2%;
+}
+
+.button2{
+    width: 130px;
+    height: 38px;
+    border-radius: 4px;
+    border-style: solid;
+    background-image: url(../Images/apple.svg);
+    background-size: cover;
+    background-color: transparent;
+    border-color: white;
+    border-width: 1px;
+}
+
+.button3{
+    width: 130px;
+    height: 38px;
+    border-radius: 4px;
+    border-style: solid;
+    background-image: url(../Images/play.svg);
+    background-size: cover;
+    background-color: transparent;
+    border-color: white;
+    margin-left: 5%;
+    border-width: 1px;
+}
+
+/* ENDING OF HEADER STYLING */
+
+.section1{
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: slategrey;
+    
+}
+
+.maindiv{
+    display: flex;
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #26093A;
+}
+
+.crypto{
+    /* border-style: solid; */
+    width: 200px;
+    padding-left: 3%;
+    font-weight: bold;
+}
+
+.rate{
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-color: slategrey;
+    width: 200px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+/* ENDING OF SECTION 1 */
+
+.section2{
+    background-color: whitesmoke;
+    margin-top: -1%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+
+}
+
+.currencies{
+    text-align: center;
+    color: #26093A;
+
+}
+
+.sec2div{
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    color: #26093A;
+}
+
+.img{
+    width: 150px;
+}
+
+.financial{
+    padding-top: 5%;
+    background-color: white;
+    text-align: center;
+    width: 420px;
+    height: 390px;
+    margin-left: 5%;
+}
+
+.financial1{
+    padding-top: 5%;
+    background-color: white;
+    text-align: center;
+    width: 420px;
+    height: 390px;
+    margin-left: 5%;
+}
+
+.financial2{
+    padding-top: 5%;
+    background-color: white;
+    text-align: center;
+    width: 420px;
+    height: 390px;
+    margin-left: 5%;
+}
+
+.button_sec2{
+    width: 200px;
+    margin-left: 44%;
+    height: 50px;
+    color: blueviolet;
+}
+
+/* ENDING OF SECTION TWO */
+
+.sec3{
+    background-color: whitesmoke;
+    margin-top: -3%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 4%;
+}
+
+.simple{
+    text-align: center;
+    color: #26093A;
+
+}
+
+.divflex{
+    display: flex;
+    color: #26093A;
+}
+
+.sec3div{
+    margin-top: 10%;
+}
+
+.secdiv2{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.imgplay{
+    margin-left: 40%;
+    
+}
+
+.divflex2{
+    display: flex;
+    padding-top: 3%;
+    color: #26093A;
+}
+
+.dv3{
+    margin-left: 30%;
+}
+
+/* ENDING OF SECTION 3 */
+
+.sec4{
+    padding-top: 8%;
+    text-align: center;
+    color: #26093A;
+    padding-bottom: 5%;
+    
+}
+
+.buttsec3{
+    margin-top: 2%;
+    background-color: blueviolet;
+    color: white;
+    width: 251px;
+    height: 35px;
+    border-style: none;
+    border-radius: 3px;
+    
+}
+
+.sec3v{
+    display: flex;
+    margin-left: 42%;
+    margin-top: 3%;
+    
+
+}
+
+.wade{
+    font-size: 30px;
+}
+
+.button6{
+    /* background-image: url(./Images/purapple.svg); */
+    width: 130px;
+    height: 35px;
+    /* background-size: 20px;
+    background-repeat: no-repeat; */
+    background-color: transparent;
+    border-color:slategrey;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.pura{
+    width: 20px;
+    margin-top: -1%;
+    margin-left: -79%;
+}
+
+.button7{
+    margin-left: 5%;
+    width: 130px;
+    height: 35px;
+    /* background-image: url(./Images/playstore.svg); */
+    /* background-size: 20px;
+    background-repeat: no-repeat; */
+    background-color: transparent;
+    border-color:slategrey;
+    border-width: 1px;
+    border-radius: 4px;
+    
+}
+
+.ptag{
+    margin-left: 15%;
+    margin-top: -20%;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* ENDING OF SECTION FOUR */
+
+.sec5{
+    background-color: whitesmoke;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+
+.sec5h{
+    text-align: center;
+    color: #26093A;
+    font-size: 30px;
+}
+
+.reviewsec5{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    color: white;
+}
+
+.cusrev{
+    background-image: url(../Images/purple.svg);
+    width: 400px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cusrev1{
+    background-image: url(../Images/purple.svg);
+    width: 400px;
+    height: 300px;
+    margin-left: 4%;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cusrev2{
+    background-image: url(../Images/purple.svg);
+    width: 400px;
+    height: 300px;
+    margin-left: 4%;
+    background-repeat: no-repeat;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.quote{
+    margin-left: -79%;
+    margin-top: 8%;
+}
+
+/* ENDING OF SECTION FIVE */
+
+.footer{
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #26093A;
+}
+
+.footerdiv{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.foot1{
+    margin-left: 20%;
+}
+
+.foot2{
+    margin-left: 20%;
+}
+
+.foot3{
+    margin-left: 20%;
+}
+
+.icon{
+    margin-left: 15%;
+}
+
+.footlast{
+    background-color: whitesmoke;
+
+}
+
+.last{
+    padding-left: 39%;
+}

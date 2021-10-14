@@ -1,0 +1,199 @@
+@media (max-width: 768px) {
+    .buy{
+        position: relative;
+        left: 1vw;
+        margin-top: 6%;
+        
+    }
+    
+    .learn{
+        position: relative;
+        left: -3vw;
+        margin-top: 6%;
+    }
+    
+    .login{
+        position: relative;
+        left: -7vw;
+        width: 80px;
+        height: 38px;
+        border-radius: 5px;
+        color: white
+        background-color: transparent;
+        border-style: solid;
+        border-color: white;
+        border-width: 1px;
+        margin-top: 5%;
+    }
+    
+    .started{
+        position: relative;
+        left: -12vw;
+        width: 80px;
+        height: 38px;
+        border-radius: 5px;
+        color: blueviolet;
+        background-color: white;
+        border-style: none;
+        margin-top: 5%;
+    }
+
+    .financial{
+    padding-top: 5%;
+    background-color: white;
+    text-align: center;
+    width: 420px;
+    height: 390px;
+    margin-left: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.financial1{
+    padding-top: 5%;
+    background-color: white;
+    text-align: center;
+    width: 420px;
+    height: 390px;
+    margin-left: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.financial2{
+    padding-top: 5%;
+    background-color: white;
+    text-align: center;
+    width: 420px;
+    height: 390px;
+    margin-left: 3%;
+    margin-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.button_sec2{
+    width: 150px;
+    margin-left: 41%;
+    height: 45px;
+    color: blueviolet;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+/* ENDING OF SEC 2 */
+
+.sec3{
+    background-color: whitesmoke;
+    margin-top: -3%;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-bottom: 4%;
+}
+
+.simple{
+    text-align: center;
+    color: #26093A;
+
+}
+
+.divflex{
+    display: flex;
+    color: #26093A;
+}
+
+.sec3div{
+    margin-top: 10%;
+}
+
+.secdiv2{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.imgplay{
+    margin-left: 20%;
+    width: 200px;
+    margin-top: 15%;
+    
+}
+
+.imgplan{
+    width: 200px;
+    
+}
+
+.imgplan1{
+    width: 200px;
+    margin-top: 10%;
+    
+}
+
+.divflex2{
+    display: flex;
+    padding-top: 3%;
+    color: #26093A;
+}
+
+.dv3{
+    margin-left: 10%;
+}
+
+.wade{
+    font-size: 20px;
+}
+
+.sec3v{
+    display: flex;
+    margin-left: 34%;
+    margin-top: 3%;
+    
+
+}
+
+.button6{
+    /* background-image: url(./Images/purapple.svg); */
+    width: 120px;
+    height: 35px;
+    /* background-size: 20px;
+    background-repeat: no-repeat; */
+    background-color: transparent;
+    border-color:slategrey;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.pura{
+    width: 20px;
+    margin-top: -1%;
+    margin-left: -79%;
+}
+
+.button7{
+    margin-left: 5%;
+    width: 120px;
+    height: 35px;
+    /* background-image: url(./Images/playstore.svg); */
+    /* background-size: 20px;
+    background-repeat: no-repeat; */
+    background-color: transparent;
+    border-color:slategrey;
+    border-width: 1px;
+    border-radius: 4px;
+    
+}
+
+.ptag{
+    margin-left: 15%;
+    margin-top: -20%;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+
+.last{
+    padding-left: 30%;
+    padding-top: 1%;
+}

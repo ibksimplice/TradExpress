@@ -1,0 +1,353 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" href="{% static 'css/tablet.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mobile.css' %}">
+    
+    <script src="index.js"> </script>
+</head>
+<body>
+    <header class="mainheader">
+        <nav class="navbar">
+            <img src="{% static 'Images/logo.png' %}" alt="">
+            <p class="buy" >
+                <a class="hover" href="{% url 'instantbuysell_buy'%}"> Instant Buy/Sell </a> 
+            </p>
+
+            <p class="learn">
+                Learn
+            </p>
+
+            <button class="login"> Log In </button>
+
+            <button class="started"> Get Started </button>
+        </nav>
+
+
+        <div class="header">
+            <h2 class="header1">
+                Buy, sell and manage your 
+                <br>
+                Crypto on TradExpress.
+            </h2>
+
+            <p> Easily Trade Cryptocurrencies like BTC, USDT, ETH, LTC & XRP
+                <BR>
+                with NGN.
+                
+            </p>
+
+            <button class="button1"> Get Started </button>
+
+            <div class="header_div">
+
+                <div>
+                    <button class="button2"> 
+                        
+                        
+                    </button>
+                </div>
+
+                <div>
+                    <button class="button3"> 
+                        
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ENDING OF HEADER -->
+
+    <section class="section1">
+        <div class="maindiv">
+            <div class="crypto">
+                <h4> BTC/NGN</h4>
+
+                <p> 20,560.101.59 NGN </p>
+            </div>
+
+            <div class="rate">
+                <p>-3.21%</p>
+            </div>
+
+            <div class="crypto">
+            
+                <h4> USDT/NGN</h4>
+
+                <p> 453.44 NGN </p>
+            </div>
+
+            <div class="rate">
+                <p>+10.20%</p>
+            </div>
+
+            <div class="crypto">
+                <h4> ETH/NGN</h4>
+
+                <p> 818,490.32 NGN </p>
+            </div>
+
+            <div class="rate">
+                <p>+253%</p>
+            </div>
+
+            <div class="crypto">
+                <h4> LTC/NGN</h4>
+
+                <p> 81,002.32 NGN </p>
+            </div>
+
+            <div class="rate">
+                <p>-254%</p>
+            </div>
+            
+            <div class="crypto">
+                <h4> XRP/NGN</h4>
+
+                <p> 226.56 NGN </p>
+            </div>
+
+            <div class="rate">
+                <p>-254%</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <h1 class="currencies"> Why do people get involved with Cryptocurrencies? </h1>
+
+        <div class="sec2div">
+            <div class="financial">
+                <img class="img" src="{% static 'Images/anim.svg' %}" alt="">
+
+                <h2> Easy Mode of Payment </h2>
+
+                <p>
+                    People can now easily send and receive money 
+                    <br> from anywhere in the world to purchase goods and 
+                    <br> pay for services.
+                </p>
+            </div >
+
+
+            <div class="financial1">
+                <img class="img" src="{% static 'Images/anim.svg' %}" alt="">
+
+                <h2> Financial Freedom </h2>
+
+                <p>
+                    Just like the internet no single entity controls the 
+                    <br>Crypto network which provides users transparency 
+                    <br>and privacy, which puts you in absolute control of
+                    <br> your money.
+                </p>
+            </div >
+
+            <div class="financial2">
+                <img class="img" src="{% static 'Images/anim.svg' %}" alt="">
+
+                <h2> Investments </h2>
+
+                <p>
+                    The constant demand as made Cryptocurrecies a 
+                    <br>Digital Gold used for alternative store of wealth on 
+                    <br>long term investments.
+                </p>
+            </div >
+        </div>
+
+        <button class="button_sec2"> Learn More </button>
+    </section>
+
+    <section class="sec3">
+        <h2 class="simple"> Buy and Sell your Cryptocurrency in 3 simple steps </h2>
+
+        <div class="divflex">
+            <div class="sec3div">
+                <h2> Create a free account </h2>
+                <p> Sign up for your free TradExpress Wallet on web, iOS, or Android devices and follow our
+                    <br> easy process to set up your profile.</p>
+
+                <img class="imgplan" src="{% static 'Images/anim.svg' %}" alt="">
+            </div>
+
+            <div class="secdiv2">
+                <img class="imgplay" src="{% static 'Images/plan.svg' %}" alt="">
+
+                <h2> Deposit </h2>
+                <p> Choose your preferred deposit option like bank transfer, credit/debit card <br>
+                    or send digital asset directly to your wallet for easy funding/withdrawal.
+
+                </p>
+
+            </div>
+        </div>
+
+        <div class="divflex2">
+            <div>
+                <h2> Buy/Sell Crypto </h2>
+                <p>Buy BTC, USDT, ETH, LTC, XRP, DOGE and securely store it 
+                  <br>  in your wallet or send it easily to friends and family.</p>
+
+            </div>
+
+            <div class="dv3">
+                <img class="imgplan1" src="{% static 'Images/plan.svg' %}" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ENDING OF SECTION 3 -->
+
+    <section class="sec4">
+        <p> Ready to trade Buy/Sell cryptocurrencies in just 10 minutes? </p>
+
+        <h2 class="wade"> Create your account for free and start trading today! </h2>
+
+        <button class="buttsec3"> Get Started </button>
+
+        <div class="sec3v">
+
+            <div>
+                <button class="button6"> 
+                    <img class="pura" src="{% static 'Images/purapple.svg' %}" alt="">
+                   <p class="ptag"> 
+
+                        Download on the
+                        <br> App Store
+
+                   </p> 
+                    
+                </button>
+            </div>
+
+            <div>
+                <button class="button7"> 
+                    <img class="pura" src="{% static 'Images/playstore.svg' %}" alt="">
+                      <p class="ptag">
+                            Get on
+                            <br> Google Play
+                      </p>  
+                    
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ENDING OF SECTION FOUR -->
+
+    <section class="sec5">
+
+        <h2 class="sec5h"> Customer's Review </h2>
+
+        <div class="reviewsec5">
+
+            <div class="cusrev">
+                <img class="quote" src="{% static 'Images/quote.svg' %}" alt="">
+                <p>
+                    Trading on TradExpress mobile & web
+                    <br> platforms has been a smooth 
+                    <br> experience for me quite easy to 
+                    <br> navigate.
+                </p>
+            </div>
+
+            <div  class="cusrev1">
+                <img class="quote" src="{% static 'Images/quote.svg' %}" alt="">
+                <p>
+                    They have the best rate compared 
+                    <br> to other platforms with fast payout.
+                </p>
+            </div>
+
+            <div  class="cusrev2">
+                <img class="quote" src="{% static 'Images/quote.svg' %}" alt="">
+                <p>
+                    Easy to fund and withdraw coins or cash
+                    <br> on their platform,
+                    <br>  I will definitely trade with them again.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENDING OF SECTION 5 -->
+
+
+    <footer class="footer">
+
+        <div class="footerdiv">
+
+            <div class="foot">
+
+                <h2> Products</h2>
+
+                <p>
+                    Bitcoin
+                    <br> alt
+                    <br> Flat
+                    <br> Refil
+                    <br> P2P
+
+                </p>
+            </div>
+
+            <div class="foot1">
+
+                <h2> Learn</h2>
+
+                <p>
+                    Blog
+                    <br> Help Centre
+
+                </p>
+            </div>
+
+            <div class="foot2">
+
+                <h2> Contact</h2>
+
+                <p>
+                    hello@tradeexpress.com
+                    <br> support@tradeexpress.com
+
+                </p>
+                <img src="{% static 'Images/Icon awesome-twitter.svg' %}" alt="">
+                <img class="icon" src="{% static 'Images/Icon awesome-telegram.svg' %}" alt="">
+                <img class="icon" src="{% static 'Images/Icon ionic-logo-whatsapp.svg' %}" alt="">
+                <img class="icon" src="{% static 'Images/Icon awesome-facebook.svg' %}" alt="">
+
+            </div>
+
+            <div class="foot3">
+
+                <h2> Company </h2>
+
+                <p>
+                    About Us
+                    <br> Careers
+                    <br> Rates
+                    <br> Mobile
+                    
+
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <section class="footlast">
+        <!-- <img class="cee" src="./Images/cee.svg" alt=""> -->
+        <img class="last" src="{% static 'Images/footer.svg' %}" alt="">
+    </section>
+</body>
+</html>

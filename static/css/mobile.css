@@ -1,0 +1,25 @@
+@media(max-width: 425px) {
+    
+    .mainheader{
+        background-color: blueviolet;
+        padding-bottom: 5%;
+        width: 100vw;
+    }
+    .maindiv{
+        flex-direction: column;
+        color: black;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color: #26093A;
+    }
+
+    .sec2div{
+        flex-direction: column;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        color: #26093A;
+    }
+
+
+  
+}

@@ -1,0 +1,223 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* padding-top: 1%; */
+    background-color: blueviolet;
+}
+
+.buy{
+    position: relative;
+    left: 25vw;
+    
+}
+
+.learn{
+    position: relative;
+    left: 19vw;
+}
+
+.login{
+    position: relative;
+    left: 9vw;
+    width: 190px;
+    height: 48px;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border-style: none;
+}
+
+.started{
+    position: relative;
+    /* left: 5vw; */
+    margin-top: 7px;
+    width: 180px;
+    height: 38px;
+    border-radius: 5px;
+    color: blueviolet;
+    background-color: white;
+    border-style: none;
+}
+
+.form{
+    background-color: #FBF8FD;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    height: 650px;
+    width: 400px;
+    margin-top: 2%;
+    margin-left: 33%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: slategrey;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.formdiv1{
+    display: flex;
+    background-color: #E4E4E4;
+    height: 25px;
+    border-radius: 8px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.form2{
+
+    
+    margin-left: 15%;
+    padding-top: 1%;
+    width: 100px;
+    height: 30px;
+    margin-top: -1%;
+    
+}
+
+.ind{
+    margin-top: 5%;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.form3{
+    margin-left: 25%;
+    background-color:white;
+    border-radius: 8px;
+    width: 180px;
+    height: 30px;
+    margin-top: -1%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+   
+}
+
+#username{
+    margin-top: 10%;
+    width: 380px;
+    border-style: none;
+    border-radius: 8px;
+    height: 12px;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+
+}
+
+#businessname{
+    margin-top: 5%;
+    width: 380px;
+    border-style: none;
+    border-radius: 8px;
+    height: 12px;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+
+}
+
+#email{
+    margin-top: 5%;
+    width: 380px;
+    border-style: none;
+    border-radius: 8px;
+    height: 12px;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+
+}
+
+#phonenumber{
+    margin-top: 5%;
+    width: 380px;
+    border-style: none;
+    border-radius: 8px;
+    height: 12px;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+
+}
+
+#code{
+    margin-top: 5%;
+    width: 380px;
+    border-style: none;
+    border-radius: 8px;
+    height: 12px;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+
+}
+
+#password{
+    margin-top: 5%;
+    width: 380px;
+    border-style: none;
+    border-radius: 8px;
+    height: 12px;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+
+}
+
+#passwordagain{
+    margin-top: 5%;
+    width: 380px;
+    border-style: none;
+    border-radius: 8px;
+    height: 12px;
+    padding: 3%;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+
+}
+
+.click{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.span{
+    color: blueviolet;
+}
+
+.signbutton{
+    margin-top: 5%;
+    width: 380px;
+    background-color: blueviolet;
+    border-style: none;
+    border-radius: 8px;
+    height: 40px;
+    padding: 3%;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#E4E4E4 ;
+
+}
+
+.account{
+    text-align: center;
+    font-size: 13px;
+    margin-top: 6%;
+}
